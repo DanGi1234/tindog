@@ -3,7 +3,12 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
 
@@ -161,7 +166,9 @@ p {
 
 
 @media (max-width: 1000px) {
-  #title {
+
+  #title,
+  .container-fluid {
     text-align: center;
   }
 
